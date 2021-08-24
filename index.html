@@ -11,19 +11,22 @@
     <div class="container">
       <h2>Poids Actuel</h2>
       <div class="actuel">
-        <input type="number" placeholder="LBS" />
+        <label for="Albs">lbs</label>
+        <input type="number" placeholder="LBS" class="Albs" />
         <p>OU</p>
-        <input type="number" placeholder="KG" />
+        <input type="number" placeholder="KG" class="Akg" />
+        <label for="Akg">kg</label>
       </div>
       <h2>Poids Désiré</h2>
       <div class="desire">
-        <input type="number" placeholder="LBS" />
+        <label for="Dlbs">lbs</label>
+        <input type="number" placeholder="LBS" class="Dlbs" />
         <p>OU</p>
-        <input type="number" placeholder="KG" />
+        <input type="number" placeholder="KG" class="Dkg" />
+        <label for="Dkg">kg</label>
       </div>
-      <div class="results">
-        ICI LES RESULTATS
-      </div>
+      <button class="calcul">Calculer le temps</button>
+      <div class="results"></div>
     </div>
   </body>
   <script src="app.js"></script>

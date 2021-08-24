@@ -1,16 +1,16 @@
 body {
-  background-color: midnightblue;
+  color: #f1f1f1;
+  background-color:#111;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
-  border:2px solid yellow;
-  width: 50%;
+  /* border:2px solid yellow; */
+  width: 70%;
   min-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
-  /* justify-content: center; */
   justify-items: center;
 }
 
@@ -27,13 +27,38 @@ p {
 h2 {
   text-align: center;
   text-decoration: underline;
+  font-size: 1.6em;
+  margin: 30px 0 10px 0;
 }
 
 input {
   width: 80px;
   height: 25px;
+  margin:4px;
+}
+
+
+.calcul {
+  width: 50%;
+  outline: none;
+  margin:50px auto ;
+  padding:8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  transition: all 300ms;
+  border:3px solid #eee;
+  max-width: 300px;
+}
+
+.calcul:hover {
+  background-color: #673ab7;
+  color:#eee;
+  border:3px solid #eee;
 }
 
 .results {
-  margin-top: 40px;
+  padding: 8px;
+  width:80%;
+  margin:auto;
 }
