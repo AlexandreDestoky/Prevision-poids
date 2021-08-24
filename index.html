@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prevision Poids</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
-      <div>
-        <label for="">Poids Actuel</label>
-        <input type="number">
-        <input type="radio" value="kg">
-        <label for="unitePoids">kg</label>
-        <input type="radio" value="lbs">
-        <label for="unitePoids">lbs</label>
+    <div class="container">
+      <h2>Poids Actuel</h2>
+      <div class="actuel">
+        <input type="number" placeholder="LBS" />
+        <p>OU</p>
+        <input type="number" placeholder="KG" />
       </div>
-      <div>
-        <label for="">Poids Désiré</label>
-        <input type="number">
+      <h2>Poids Désiré</h2>
+      <div class="desire">
+        <input type="number" placeholder="LBS" />
+        <p>OU</p>
+        <input type="number" placeholder="KG" />
       </div>
-    </form>
+      <div class="results">
+        ICI LES RESULTATS
+      </div>
+    </div>
   </body>
+  <script src="app.js"></script>
 </html>

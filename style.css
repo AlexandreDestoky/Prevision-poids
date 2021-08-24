@@ -1,0 +1,39 @@
+body {
+  background-color: midnightblue;
+}
+
+.container {
+  border:2px solid yellow;
+  width: 50%;
+  min-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  /* justify-content: center; */
+  justify-items: center;
+}
+
+.actuel, .desire {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin:0 15px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+input {
+  width: 80px;
+  height: 25px;
+}
+
+.results {
+  margin-top: 40px;
+}
