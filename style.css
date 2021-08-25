@@ -61,4 +61,6 @@ input {
   padding: 8px;
   width:80%;
   margin:auto;
+  text-align: center;
+  max-width: fit-content;
 }
